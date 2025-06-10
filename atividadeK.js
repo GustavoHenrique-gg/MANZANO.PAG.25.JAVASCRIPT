@@ -1,9 +1,15 @@
-let num = parseFloat(prompt("digite o valor de um valor valor maior que 3 "))
+let contador 
+let fatorial 
+let j 
 
-
-if (num>3){
-    alert(" O valor é " + num )
-}
-else{
-    alert(" valor não encontrado ")
+for( contador=1; contador<11; contador++){
+    if (contador % 2 !=0){
+        fatorial=1 
+    
+    for( j=1; j<=contador; j++){
+        fatorial= fatorial*j 
+    }
+    alert("o fatorial de " + contador + " é " + fatorial )
+     }    
+    
 }

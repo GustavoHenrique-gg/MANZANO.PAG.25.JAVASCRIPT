@@ -1,10 +1,13 @@
-let num= parseFloat(prompt(" digite um valor positivo "))
+let num= parseInt(prompt(" digite um número qualquer : "))
 
-if (num<0){
-    num=num*-1
-    alert(num)
-}
+let contador 
 
-else{
-    alert(num)
+let x
+
+for( contador=1; contador<11; contador++){
+     x= num* contador 
+
+     alert(num + " X "+ contador+ " : "+ x )
+
+     
 }

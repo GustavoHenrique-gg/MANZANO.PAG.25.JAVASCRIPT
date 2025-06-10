@@ -1,9 +1,14 @@
-let num= parseFloat(prompt(" digite um valor entre 1 e 9 "))
+let c= 10 
 
-if(num<1 || num>9 ){
+let f
 
-    alert(" O valor precisa está dentro da faixa informada")
-}
-else{
-     alert(" o valor está dentro da faixa  " )
+
+
+
+
+for( c=10; c<=100; c=c+10){
+
+    f=(9*c+160)/5
+
+    console.log("o valor em celsius é " + c + " convertendo par fahrenheit " + f )
 }
